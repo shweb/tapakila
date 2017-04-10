@@ -2329,7 +2329,7 @@ display: inline
 
 #catalogue-tapakila .right .showdetails .flyer img {
 width: 300px;
-height: 420px;
+height: 425px;
 cursor: pointer
 }
 
@@ -2906,7 +2906,7 @@ width: 100% !important
 #catalogue-tapakila .right .online .venueinfo {
 display: table-cell;
 vertical-align: top;
-width: 175px;
+width: 250px;
 border-left: 1px dotted #e2e1e1;
 padding: 0 0 10px 20px;
 margin: 0 0 0 20px;
