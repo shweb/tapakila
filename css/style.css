@@ -4214,7 +4214,130 @@ visibility:hidden;
 	font-size:30px;
 }
 
+.col >ul>li {
+padding: 0;
+text-align: center
+}
+.col {
+font-size: 12px;
+background: none
+}
+.col {
+font-size: 12px;
+background: none
+}
+.col img {
+padding-top: 10px
+}
+col {
+background: #ffffff;
+border-bottom: 1px solid #cbcbcb
+}
+.col {
+padding: 30px 0 10px
+}
 
+.landing >h5 {
+text-align: center; 
+font-size: 25px;
+color: black;
+ display: block;
+ -webkit-margin-before: 0.83em;
+-webkit-margin-after: 0.83em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+.landing >p {
+text-align: center; 
+display: block;
+-webkit-margin-before: 0.83em;
+-webkit-margin-after: 0.83em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+
+}
+
+
+.col >ul {
+padding: 5px 0;
+display: flex;
+justify-content: space-between
+}
+.col {
+display: block;
+text-align: center
+}
+.col  {
+width: 100%
+}
+.col {
+margin: 0 5px
+}
+.col {
+margin: 0 5px
+}
+.col >ul {
+justify-content: center;
+flex-wrap: wrap
+}
+.col >ul>li {
+padding: 0 10px
+}
+
+.col img {
+padding-top: 5px
+}
+
+@media screen and (max-width: 1060px) {
+.landing >h5 {
+margin-left:0 px; 
+font-size: 25px;
+color: black;
+}
+}
+
+hr{
+border: 0;
+display: block;
+-webkit-margin-before: 0.5em;
+-webkit-margin-after: 0.5em;
+-webkit-margin-start: auto;
+-webkit-margin-end: auto;
+border-style: inset;
+border-width: 1px;
+border-bottom: 3px solid #acabab;
+
+}
+
+
+.landing >h4 {
+text-align: center;
+display: block;
+font-size: 1.17em;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+top:-20px;
+} 
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: 5px solid #d4d4d4;
+	text-align: center;
+}
+hr.style-eight:after {
+    content: "Tapakila vous a couvert";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.2em;
+    padding: 0 0.25em;
+     background: #f5f5f5;
+}
 
 
 
