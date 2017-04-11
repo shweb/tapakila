@@ -1539,7 +1539,7 @@ clear: both
 
 .singinup{
 	width: 600px;
-	margin-top: 50px;
+	margin-top: 15px;
 }
 .placeholder{
 width:100%;
@@ -1548,6 +1548,11 @@ border-radius:5px;
 margin-bottom:25px;
 }
 
+.connexion{
+	text-align:center;
+	font-size:20px;
+	font-weight: bold;
+}
 button.btn{
 	color:white;
 	background:#be021a;
@@ -1874,6 +1879,7 @@ margin-right:25px;
 	margin-bottom:100px;
 }
 }
+
 
 
 @media screen and  (max-width: 414px)  {
@@ -3139,8 +3145,11 @@ cursor: pointer
 color: white
 }
 
-
-
+.tpak{
+	color:#be021a;
+	text-align:center;
+	font-size:40px;
+}
 .Programme-entier{
 display: none;
 width: 100%;
