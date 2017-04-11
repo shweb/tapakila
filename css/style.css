@@ -929,6 +929,12 @@ margin-bottom: 10px;
 
 
 /*------------------------------------------------------------------------------------- item-start-------------------------------------------------------------------- */
+
+.a{
+	color:#be021a;
+}
+
+
 #tpk .landing
 {
 margin-top: 30px;
@@ -1516,7 +1522,43 @@ color: inherit
 clear: both
 }
 
+.singin{
+	height:700px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
 
+.singin {
+    width:500px;
+    margin: 0 auto;
+    position: relative;
+	margin-bottom:100px;
+}
+
+.singinup{
+	width: 600px;
+	margin-top: 50px;
+}
+.placeholder{
+width:100%;
+height:30px;
+border-radius:5px;
+margin-bottom:25px;
+}
+
+button.btn{
+	color:white;
+	background:#be021a;
+   border-radius:50px;
+	width:100%;
+	padding:10px;
+	margin-bottom:45px;
+	margin-top:25px;
+}
+
+}
 .containers {
 width: 1026px;
 margin: 0 auto;
@@ -1810,6 +1852,29 @@ text-align:center;
 margin-right:25px;
 }
 
+@media screen and  (max-width: 330px)  {
+
+.singinup{
+	width: 300px !important;
+	margin-top: 50px;
+	
+}
+.singin{
+	height:700px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.singin {
+    width:300px !important;
+    margin: 0 auto;
+    position: relative;
+	margin-bottom:100px;
+}
+}
+
 
 @media screen and  (max-width: 414px)  {
 
@@ -1823,6 +1888,25 @@ margin-left:35px;
 .fa{
 text-align:center;
 margin-left:35px;
+}
+.singinup{
+	width: 500px;
+	margin-top: 50px;
+	
+}
+.singin{
+	height:700px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.singin {
+    width:350px;
+    margin: 0 auto;
+    position: relative;
+	margin-bottom:100px;
 }
 }
 
@@ -4214,9 +4298,17 @@ visibility:hidden;
 	font-size:30px;
 }
 .rechercheavance{
-		font-family:roboto;
-		font-size:30px;
-		text-align:center;
+	font-family:roboto;
+	font-size:30px;
+	text-align:center;
+}
+
+
+.Tapakla{
+	font-family:roboto;
+	font-size:35px;
+	text-align:center;
+	color:#be021a;
 }
 
 .col >ul>li {
@@ -4345,6 +4437,22 @@ hr.style-eight:after {
 }
 
 
+hr.style-inscription{
+	padding: 0;
+    border: none;
+    border-top: 5px solid #d4d4d4;
+	text-align: center;
+}
+hr.style-inscription:after {
+    content: "Inscription";
+    display: inline-block;
+    position: relative;
+    top: -19px;
+    font-size: 20px;
+    padding: 0 0.25em;
+    background: #f5f5f5;
+}
+
 .custom-select {
     display:block;
     width: 500px;
@@ -4450,6 +4558,12 @@ margin-top:30px;
     -moz-appearance: none;
     -webkit-appearance: none;
 }
+}
+.mbr{
+	text-align:center;
+	margin-bottom:20px;
+
+}
 .custom-select1 {
     display:block;
     width:300px;
@@ -4517,4 +4631,5 @@ margin-top:30px;
 
 }
 }
+
 	
