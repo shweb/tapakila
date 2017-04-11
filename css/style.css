@@ -1541,6 +1541,17 @@ clear: both
 	width: 600px;
 	margin-top: 15px;
 }
+
+#commande{
+	width: 600px;
+	margin-top: -30px;
+}
+.connex{
+	width: 600px;
+	margin-top: -200px;
+}
+
+
 .placeholder{
 width:100%;
 height:30px;
@@ -1548,10 +1559,17 @@ border-radius:5px;
 margin-bottom:25px;
 }
 
-.connexion{
+.connexion ,{
 	text-align:center;
 	font-size:20px;
 	font-weight: bold;
+}
+.comande{
+	text-align:center;
+	font-size:35px;
+	font-weight: bold;
+	color:#b91027;
+
 }
 button.btn{
 	color:white;
@@ -1561,6 +1579,17 @@ button.btn{
 	padding:10px;
 	margin-bottom:45px;
 	margin-top:25px;
+}
+
+button.bouton{
+	color:white;
+	background:#be021a;
+  width:35%;
+	padding:10px;
+	margin-bottom:45px;
+	margin-top:25px;
+	border-radius:20px;
+	margin-left:150px;
 }
 
 }
@@ -1906,6 +1935,16 @@ margin-left:35px;
 	justify-content: space-between;
 	align-items: center;
 	
+}
+button.bouton{
+	color:white;
+	background:#be021a;
+	width:50%;
+	padding:10px;
+	margin-bottom:45px;
+	margin-top:25px;
+	border-radius:20px;
+	margin-left:80px;
 }
 
 .singin {
@@ -2582,7 +2621,7 @@ position: absolute;
 top: 22px;
 background-color: #e7e7e7;
 background-repeat: no-repeat;
-background-image: url(http://www.smartshanghai.com/css/img/smartticket-calenndar-arrows.png)
+
 }
 
 #catalogue-tapakila .right .online .inner .datelist .arrowbutton .previous .disabled,
@@ -2593,7 +2632,7 @@ color: #ccc
 #catalogue-tapakila .right .online .inner .datelist .arrowbutton .previous:hover,
 #catalogue-tapakila .right .online .inner .datelist .arrowbutton .next:hover {
 background-color: #dedede;
-background-image: url(http://www.smartshanghai.com/css/img/smartticket-calenndar-arrows.png)
+
 }
 
 #catalogue-tapakila .right .online .inner .datelist .arrowbutton .previous {
@@ -4641,4 +4680,131 @@ margin-top:30px;
 }
 }
 
-	
+#support-contact {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #bababa;
+    margin: 20px auto;
+    padding: 50px 0;
+}
+
+#support-contact {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #bababa;
+    margin: 20px auto;
+    padding: 50px 0;
+}
+
+#support-contact .col1 {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 40px
+}
+
+#support-contact .col1 .support1 {
+    padding: 15px 0
+}
+
+#support-contact .col1 .support1 .support-icon {
+    display: none;
+    vertical-align: top;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-position: 0 10px
+}
+
+#support-contact .col1 .support1 .support-icon.card {
+    display: table-cell;
+    background-image: url("../img/support/card.png")
+}
+
+#support-contact .col1 .support1 .support-icon.cooperate {
+    display: table-cell;
+    background-image: url("../img/support/cooperate.png")
+}
+
+#support-contact .col1 .support1 .support-icon.chose {
+    display: table-cell;
+    background-image: url("../img/support/chose.png")
+}
+
+#support-contact .col1 .support1 .support-icon.cancel {
+    display: table-cell;
+    background-image: url("../img/support/cancel.png")
+}
+
+#support-contact .col1 .support1 .support-icon.pay {
+    display: table-cell;
+    background-image: url("../img/support/pay.png")
+}
+
+#support-contact .col1 .support1 .support-descript {
+    display: table-cell;
+    vertical-align: top
+}
+
+#support-contact .col1 .support1 .support-descript>a {
+    font-size: 20px;
+    font-weight: normal
+}
+
+#support-contact .col1 .support1 .support-descript>p {
+    font-size: 14px;
+    line-height: 24px
+}
+
+#support-contact .col2 {
+    display: table-cell;
+    vertical-align: top;
+    width: 45%;
+    border-left: 1px solid #dedede;
+    padding: 0 60px 0 40px
+}
+
+#support-contact .col2>p {
+    padding: 15px 0;
+    line-height: 24px;
+    font-size: 14px
+}
+
+#support-contact .col2 h2 {
+    font-weight: normal
+}
+
+#support-contact .col2 label {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 5px
+}
+
+#support-contact h1 {
+    font-size: 32px;
+    margin-top: 0
+}
+
+@media screen and (max-width: 1060px) {
+    #support-contact {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #support-contact .col1 {
+        display: block
+    }
+    #support-contact .col2 {
+        display: block;
+        width: auto;
+        margin: 40px 0 0
+    }
+}
+
+input.contactez-nous {
+    max-width: 400px;
+    width: 100%;
+    background: white;
+     padding:2%;
+	 margin-bottom:15px;
+}
