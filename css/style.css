@@ -4808,3 +4808,400 @@ input.contactez-nous {
      padding:2%;
 	 margin-bottom:15px;
 }
+input.infopersonnel{
+	max-width:100%;
+    width: 75%;
+    background: #e6e6e6;
+    padding:8px;
+	border:15px;
+	
+}
+
+input.adressedelivraison{
+		max-width:100%;
+    width: 57%;
+    background: #e6e6e6;
+    padding:75px;
+	border:15px;
+}
+
+
+
+
+
+
+
+
+
+#pagecheckout {
+    background: #f5f5f5;
+    font-family: roboto, sans-serif;
+    padding: 20px 0
+}
+
+#pagecheckout .right {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 24px
+}
+
+#pagecheckout .right .tapakilachek {
+    margin: 0;
+    padding: 30px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 3px #bababa
+}
+
+#pagecheckout .right .tapakilachek .personal-information {
+    position: relative
+}
+
+#pagecheckout .right .tapakilachek .personal-information .formError {
+    background: #C60105;
+    padding: 14px;
+    color: white;
+    font-size: 14px
+}
+
+#pagecheckout .right .tapakilachek .personal-information>h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: italic;
+    font-family: pt-serif, serif;
+    font-size: 22px
+}
+
+#pagecheckout .right .tapakilachek .personal-information>p {
+    font-size: 12px;
+    margin: 25px 0;
+    line-height: 18px
+}
+
+#pagecheckout .right .tapakilachek .personal-information>p a {
+    text-decoration: underline
+}
+
+#pagecheckout .right .tapakilachek .personal-information>p a:hover {
+    color: #01b0f3
+}
+
+
+#pagecheckout .right .tapakilachek .personal-information .term{
+    max-width: 155px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center
+}
+
+#pagecheckout .right .tapakilachek .personal-information .term>h2 {
+    margin: 0 0 5px;
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-weight: normal
+}
+
+#pagecheckout .right .tapakilachek .personal-information .term>p {
+    margin: 0 0 10px;
+    font-size: 13px;
+    color: #777;
+    line-height: 18px
+}
+
+#pagecheckout .right .tapakilachek .personal-information .term .checkbox {
+    display: inline-block;
+    text-align: center;
+    width: 14px;
+    height: 14px
+}
+
+#pagecheckout .right .tapakilachek .personal-information .term>label {
+    font-size: 12px
+}
+
+#pagecheckout .right .tapakilachek .infolivraison>h2,
+#pagecheckout .right .tapakilachek .infopayement>h2 {
+    background: #01b0f3;
+    margin: 20px -30px 20px -38px;
+    color: #ffffff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative
+}
+
+#pagecheckout .right .tapakilachek .infolivraison>h2:after,
+#pagecheckout .right .tapakilachek .infopayement>h2:after {
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 8px solid #017ba7;
+    border-left: 8px solid transparent
+}
+
+
+
+#pagecheckout .right .tapakilachek .infolivraison .time,
+#pagecheckout .right .tapakilachek .infopayement .time {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 535px;
+    padding: 10px;
+    background: #e7ffff
+}
+
+#pagecheckout .right .tapakilachek .infolivraison .time>div,
+#pagecheckout .right .tapakilachek .infopayement .time>div {
+    width: 200px;
+    display: inline-block;
+    margin: 0 10px
+}
+
+#pagecheckout .right .tapakilachek .infolivraison .time>div>label,
+#pagecheckout .right .tapakilachek .infopayement .time>div>label {
+    color: #646464;
+    font-family: pt-serif, serif;
+    font-style: italic
+}
+
+#pagecheckout .right .tapakilachek .infolivraison .time>div>select,
+#pagecheckout .right .tapakilachek .infopayement .time>div>select {
+    font-size: 12px;
+    max-width: 200px;
+    margin-top: 10px
+}
+
+#pagecheckout .right .tapakilachek .infolivraison #Radiochoix,
+#pagecheckout .right .tapakilachek .infopayement #Radiochoix {
+    font-size: 0
+}
+
+#pagecheckout .right .tapakilachek .infolivraison #Radiochoix>a,
+#pagecheckout .right .tapakilachek .infopayement #Radiochoix>a {
+    margin-right: 10px
+}
+
+#pagecheckout .right .tapakilachek .infopayement {
+    height: 210px
+}
+
+#pagecheckout .right .tapakilachek .infopayement>h2 {
+    margin-bottom: 30px
+}
+
+#pagecheckout .right .tapakilachek .infopayement .radio {
+    margin-right: 20px
+}
+
+#pagecheckout .right .tapakilachek .infopayement .radio>p {
+    width: 150px;
+    text-align: center;
+    margin: 20px auto
+}
+
+#pagecheckout .right .tapakilachek .infopoupayer {
+    font-size: 14px
+}
+
+#pagecheckout .right .tapakilachek .infopoupayerh2 {
+    background: #01b0f3;
+    margin: 20px -30px 20px -38px;
+    color: #ffffff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative
+}
+
+#pagecheckout .right .tapakilachek .infopoupayer>h2:after {
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 8px solid #017ba7;
+    border-left: 8px solid transparent
+}
+
+#pagecheckout .right .tapakilachek .infopoupayer .details{
+    background: rgba(236, 236, 236, 0.49);
+    padding: 30px
+}
+
+#pagecheckout .right .tapakilachek .infopoupayer.details>ul>li {
+    list-style: disc inside;
+    line-height: 18px
+}
+
+#pagecheckout .right .tapakilachek .infopoupayer .details>p {
+    margin: 20px 0 0;
+    color: red;
+    line-height: 18px
+}
+
+#pagecheckout .right .tapakilachek .infopoupayer .term {
+    padding: 30px 0 60px 0;
+    position: relative
+}
+
+#pagecheckout .right .tapakilachek .infopoupayer .term .checkbox {
+    display: inline-block;
+    text-align: center;
+    width: 14px;
+    height: 14px;
+    padding: 0 8px 0 0
+}
+
+#pagecheckout .right .tapakilachek .infopoupayer .term .button {
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+#pagecheckout .right .tapakilachek .infopoupayer.formFieldError {
+    background: #C60105;
+    padding: 8px 10px;
+    color: white
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix,
+#pagecheckout .right .tapakilachek #payerpar {
+    display: flex;
+    justify-content: flex-start
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button,
+#pagecheckout .right .tapakilachek #payerpar .button {
+    display: inline-block;
+    min-width: 150px;
+    border-radius: 2px;
+    background-color: #f5f5f5;
+    border: 1px solid #d3d3d3;
+    padding: 6px 15px;
+    color: #000000;
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: RobotoBold, sans-serif
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button:hover,
+#pagecheckout .right .tapakilachek #payerpar .button:hover {
+    border: 1px solid #3b3b3b
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix.button input[type=radio],
+#pagecheckout .right .tapakilachek #payerpar .button input[type=radio] {
+    display: none
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button .logo,
+#pagecheckout .right .tapakilachek #payerpar.button .logo {
+    vertical-align: middle;
+    padding-right: 10px
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button .radio-point,
+#pagecheckout .right .tapakilachek #payerpar.button .radio-point {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 40px;
+    width: 22px;
+    height: 22px;
+  
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button.active,
+#pagecheckout.right .tapakilachek #payerpar .button.active {
+    border: 1px solid #45c853;
+    color: black
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button.active:hover,
+#pagecheckout .right .tapakilachek #payerpar .button.active:hover {
+    border: 1px solid #3b3b3b
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button.active .radio-point,
+#pagecheckout .right .tapakilachek #payerpar .button.active .radio-point {
+  
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button.disabled,
+#pagecheckout .right .tapakilachek #payerpar .button.disabled {
+    cursor: default !important;
+    color: rgba(0, 0, 0, 0.3)
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button.disabled img,
+#pagecheckout .right .tapakilachek #payerpar.button.disabled img {
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button.disabled:hover,
+#pagecheckout .right .tapakilachek #payerpar .button.disabled:hover {
+    border: 1px solid #d3d3d3
+}
+
+#pagecheckout .right .tapakilachek #Radiochoix .button {
+    margin: 0 15px 0 0
+}
+
+@media screen and (max-width: 1060px) {
+    #pagecheckout .leftcol {
+        display: none !important
+    }
+    #pagecheckout .right {
+        display: block;
+        padding: 0
+    }
+    #pagecheckout .right .tapakilachek {
+        padding: 30px 10px
+    }
+    #pagecheckout .right .tapakilachek .infolivraison>h2,
+    #pagecheckout .right .tapakilachek .infopayement>h2 {
+        margin: 10px -10px
+    }
+    #pagecheckout .right .tapakilachek .infolivraison .time,
+    #pagecheckout .right .tapakilachek .infopayement.time {
+        width: 95%
+    }
+    #smartticket-checkout .right .tapakilachek .infopoupayer>h2 {
+        margin: 10px -10px
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #pagecheckout .right .tapakilachek .personal-information .term {
+        position: static;
+        max-width: none;
+        text-align: left;
+        margin: 20px 0
+    }
+  
+    #pagecheckout .right .tapakilachek .details .details {
+        padding: 18px
+    }
+
+}
+
+@media screen and (max-width: 401px) {
+    #pagecheckout .right {
+        padding: 0
+    }
+    #pagecheckout .right .tapakilachek.infopayement {
+        height: auto;
+        text-align: center
+    }
+}
+
+
