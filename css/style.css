@@ -35,7 +35,9 @@
 		.mot{
 
 			color: white;
+			font-size: 80%;
 		}
+
 		.test{
 			background-color: #2e5797 !important;
 			font-size: 15px;
@@ -62,9 +64,9 @@
 		}
 
 		#site-header .site-advertisement .header-search-box {
-		margin: 0 30px;
+		margin:  -20px;
 		position: relative;
-		width: 100%
+		width: 150%;
 		}
 
 		#site-header .site-advertisement .header-search-box form {
@@ -79,7 +81,7 @@
 		height: 40px;
 		padding: 0 0 0 15px;
 		box-sizing: border-box;
-		border-radius: 3px;
+		border-radius: 0px;
 		border: 0;
 		font-size: 16px
 		}
@@ -90,8 +92,8 @@
 		top: 0;
 		height: 40px;
 		width: 40px;
-		border-top-right-radius: 3px;
-		border-bottom-right-radius: 3px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
 		border: 0;
 		font-size: 0;
 		background: #680306 url("../img/searchicon.png") no-repeat center center
@@ -163,9 +165,9 @@
 
 		#site-header .site-navigation .menu li {
 		display: inline-block;
-		margin: 15px 18px 15px 0;
-		font-family: Oswald-Regular, sans-serif;
-		line-height: 18px;
+		margin: 8px 3px 3px 0;
+		font-family: Arial Narrow;
+		line-height: 10px;
 		color: #bd0a21;
 		text-transform: uppercase
 		}
@@ -173,8 +175,8 @@
 		#site-header .site-navigation .menu li a {
 		display: block;
 		padding-right: 18px;
-		font-size: 18px;
-		border-right: dotted 1px #bebebe;
+		font-size: 16px;
+
 		letter-spacing: 0.5px
 		}
 
@@ -1519,6 +1521,9 @@
 		margin-top: -200px;
 		}
 
+		.ico {
+		float:left;
+		}
 
 		.placeholder{
 		width:100%;
@@ -1544,13 +1549,22 @@
 		background:#be021a;
 		border-radius:50px;
 		padding:10px;
-		margin-bottom:45px;
-		margin-top:25px;
+		margin-bottom:85px;
+		margin-top:50px;
 		}
 		.bouton{
 			background-color: #2e5797;
-			font-size: 14px;
-			align-content: ;
+			padding:8%;
+			font-size: 100%;
+			border-radius: 5px;
+			margin-top: 5%;
+			margin-left: 0%;
+		}
+		div
+		{
+			width:100%;
+			padding:0px;
+			margin:0px;
 		}
 
 		button.bouton{
@@ -1559,9 +1573,17 @@
 		width:35%;
 		padding:10px;
 		margin-bottom:45px;
-		margin-top:25px;
+		margin-top:50px;
 		border-radius:20px;
 		margin-left:150px;
+		}
+		.oo{
+			margin-left: 30%;
+			margin-top: -10px;
+		}
+		.o{
+			margin-top: -8px;
+			margin-left: -10%;
 		}
 
 		}
@@ -4800,7 +4822,7 @@
 		img.compte{
 		width:32px;
 		height:32px;
-		margin-left:19px;
+		margin-left:8%;
 		border: 5px ;
 		padding:4px;
 		font-weight: bold; 
