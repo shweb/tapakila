@@ -1554,11 +1554,12 @@
 		}
 		.bouton{
 			background-color: #2e5797;
-			padding:8%;
+			padding:5%;
 			font-size: 100%;
 			border-radius: 5px;
 			margin-top: 5%;
-			margin-left: 0%;
+			margin-left: 16%;
+
 		}
 		div
 		{
@@ -1579,11 +1580,11 @@
 		}
 		.oo{
 			margin-left: 30%;
-			margin-top: -10px;
+			margin-top: -17px;
 		}
 		.o{
-			margin-top: -8px;
-			margin-left: -10%;
+			margin-top: -18px;
+			margin-left: -4%;
 		}
 
 		}
