@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 		<html lang="en">
 			<head>
 				<meta charset="utf-8">
@@ -13,7 +13,29 @@
 				<script type="text/javascript" src="../js/js2.js"></script>
 				<script src="../js/jquery.min.js"></script>
 				<script src="../js/bootstrap.min.js"></script>
-				
+				<!--  jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<script>
+    $(document).ready(function(){
+      var date_input=$('input[name="date"]'); //our date input has the name "date"
+      var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+      var options={
+        format: 'mm/dd/yyyy',
+        container: container,
+        todayHighlight: true,
+        autoclose: true,
+      };
+      date_input.datepicker(options);
+    })
+</script>
+		
 			</head>
 			
 			
@@ -105,82 +127,30 @@
 							</div>
 						</div>
 					</header>
-						<div class="containers" id="tpk">
-								<div class="landing">
-									<h5>Pas d'evenement ajoutés récements</h5>
-										<p>Inscrivez-vous à la newsletter,dès maintenant,pour ne pas rater les prochaines Evènements</p>
-											<div id="newsletter-hero">
-											<div class="newsletter-logo">
-											<h1>S'inscrire</h1>
-											<p>Une mise a jour mensuel des evenements à Madagascar</p>
-											</div>
-
-												<div id="newsletter-button">
-												<form action="#" method="post">
-												<input type="text" name="email-address" placeholder="         |   Your E-mail Address"> <br>
-												<div class="input-submit">
-												<input type="submit" name="submit-newsletter-subscription" value="Subscribe">
-												</div>
-												</form>
-												</div>
-											</div>
-											<hr class="style-eight">
-												
-												<div class="col">
-														<ul>
-															<li><a href="#"><img src="../img/items1.png"></a><p><strong><a href="#">Concert</a></strong></p></li>
-															<li><a href="#"><img src="../img/items2.png"></a><p><strong><a href="#">Kabaret</a></strong></p></li>
-															<li><a href="#"><img src="../img/items3.png"></a><p><strong><a href="#">Sport</a></strong></p></li>
-															<li><a href="#"><img src="../img/items4.png"></a><p><strong><a href="#">Soiré</a></strong></p></li>
-															<li><a href="#"><img src="../img/items5.png"></a><p><strong><a href="#">Danse</a></strong></p></li>
-															<li><a href="#"><img src="../img/items6.png"></a><p><strong><a href="#">Cinema</a></strong></p></li>
-															<li><a href="#"><img src="../img/items7.png"></a><p><strong><a href="#">Festivals</a></strong></p></li>
-															<li><a href="#"><img src="../img/items8.png"></a><p><strong><a href="#">Dj</a></strong></p></li>
-															
-														</ul>
-												</div>
-											<div class="landing">
-												<h1>Evenement archivés</h1>
-													<ul>
-															<li class="box">
-																<a href="./page/indexnonvide.html" style="height: auto;"><img src="../img/st.jpg"></a>
-																<h2><a href="./page/indexnonvide.html">Lorem ipsum dolor sit amet, vitae enim ultrices</a></h2>
-																<p><a href="./page/indexnonvide.html">Pellentesque amet vitae suscipit metus, massa at donec ultrices mauris at leo, in aenean, aliquet</a></p>
-																<a href="./page/indexnonvide.html">
-																<p class="price">Mar 30-Apr 2, 180-1080rmb</p>
-																<p class="date">Mahamasina</p>
-																</a>
-															</li>
-														<li class="space"></li>
-
-														<li class="box">
-																<a href="./page/indexnonvide.html" style="height: auto;"><img src="../img/djg.jpg"></a>
-																<h2><a href="./page/indexnonvide.html">wisi cras quam, nunc lacinia vitae sit donec in</a></h2>
-																<p><a href="./page/indexnonvide.html">uspendisse sed, at sed ipsum, a mattis curabitur. Per nonummy erat at purus lobortis eget, felis nulla. </a></p>
-																<a href="./page/indexnonvide.html">
-																<p class="price">Mar 30-Apr 2, 180-1080rmb</p>
-																<p class="date">Mahamasina</p>
-																</a>
-															</li>
-														<li class="space"></li>
-
-														<li class="box">
-																<a href="./page/indexnonvide.html" style="height: auto;"><img src="../img/tm.png"></a>
-																<h2><a href="./page/indexnonvide.html">suspendisse. Condimentum sit sodales, aut non</a></h2>
-																<p><a href="./page/indexnonvide.html">suscipit, erat fringilla penatibus vulputate volutpat senectus vestibulum, semper donec. Ante pulvinar </a></p>
-																<a href="./page/indexnonvide.html">
-																<p class="price">Mar 30-Apr 2, 180-1080rmb</p>
-																<p class="date">Mahamasina</p>
-																</a>
-															</li>
-														<li class="space"></li>
-													</ul>
-											</div>
-								</div>
-							</div>
-																
-    
 					
+					<div  class="containers">		
+						<div id="Boutton">
+							<form action="#" method="post">
+								<h1 >Soumettre votre  Evénement </h1>
+								<h5>Date de l'événement :</h5>
+								<input class="soummision1" id="date" name="date" placeholder="" type="text"/> <br>
+								<h5>Description :</h5>
+								<input class="soummision2" type="text" placeholder=" "> <br>
+								<h5>Inserer l'image publicitaire :</h5>
+								<input class="soummision3" type="text"  placeholder=" "> <br>
+								<h5>Lieu de l'evenement :</h5>
+								<input class="soummision4" type="text"  placeholder=" "> <br>
+								<h5>Prix du billet en vente :</h5>
+								<input class="soummision5" type="text"  placeholder="Ar  "> <br>
+								<h5>Prix reservation :</h5>
+								<input class="soummision6" type="text"  placeholder="Ar"> <br>
+									<h5>Prix VIP :</h5>
+								<input class="soummision7" type="text"  placeholder="Ar "> <br>
+								<input class="soumettre-ok input-submit" type="submit" name="s'inscrire'" value="Soumettre">
+							</form>
+						</div>
+					 </div>    
+
 					<footer>
 						<div class="footer-logo">
 									<div class="containers">
@@ -225,19 +195,19 @@
 									</a>
 								</div>
 								<div class="lower">
-									<a href="#">
-									  <div class="akis" ><p>Soumettre votre evenement</p></div>
-									</a> <br><br>
-									<a href="#">
-										  <div id="button">
-								<form action="#" method="post">
-								 <input class="soumettre" type="text" name="email-address" placeholder="             |   intitulé"> <br>
-									 <input class="so" type="text" name="email-address" placeholder="             |   intitulé"> <br>
-								  <input class="soumettre-ok input-submit" type="submit" name="s'inscrire'" value="Soumettre">
-									</a>
-								</div>
+										<a href="#">
+										  <div class="akis" ><p>Se connecter pour soumettre</p></div>
+										</a> <br><br>
+										
+									<div id="button">
+										<form>
+										<input class="sing1" type="text"  placeholder="Adresse E-mail "> <br><br>
+										<input  class="sing1" type="text"  placeholder="Mots de passe "> <br><br>
+										<input class="seconecter" type="submit"  value="Se connecter">
+										</form>
+									</div>
 							   
-							</div>
+								</div>
 							<p class="terms">
 								<a href="#">Term de Refs</a> | Tapakila 2017 | <a href="#">RCIP-24551-78-41152</a>
 							</p>
