@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+		<html lang="en">
+			<head>
+				<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<title>Tapakila</title>
+				<link rel="stylesheet" href="../css/bootstrap.min.css">
+				<link rel="stylesheet" href="../css/style.css">
+				<link rel="stylesheet" href="../css/font_awesome.min.css">
+				<script type="text/javascript" src="../js/javascripts.js"></script>
+				<script type="text/javascript" src="../js/js1.js"></script>
+				<script type="text/javascript" src="../js/js2.js"></script>
+				<script type="text/javascript" src="../js/bootstrap-datetimepicker.min.js"></script>
+				<script src="../js/jquery.min.js"></script>
+				<script src="../js/bootstrap.min.js"></script>
+				<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+
+				
+			</head>
+			
+			
+			
+				<body class="boody">
+					<header>
+						<div id="site-header">
+							<div class="site-advertisement">
+								<div class="containers">
+									<p class="site-logo ">
+										<a href="../index.html">
+										<img src="../img/logo.png">
+										</a>
+									</p>
+										<div class="search-box">
+											<form action="./page/recherche.html" method="get">
+											<input type="text" name="query" placeholder="Search..." autocomplete="off">
+											<input type="submit" value="Search">
+											</form>
+										</div>
+									<div id="tapakila-menu">
+									<ul>
+										<li class="mott1"><a href="#"><img class="compteeventes sa" src ="../img/commande.png"></a></li>
+										<li class="mott1"><a href="#"><img class="compteeventes" src ="../img/panier.png"></a></li>
+										<li class="mott1"><a href="#"><img class="compteeventes" src ="../img/moncompte.png"></a></li>
+
+
+									</ul>
+									<ul >
+										<li class="mott"><a href="#"> Commande</a></li>
+										<li class="mott"><a href="./page/indexcartvide.html"> Mon panier</a></li>
+										<li class="mott"><a href="#">Mon compte</a></li>
+
+									</ul>
+									</div>
+
+
+
+								</div>
+
+							</div>
+							<div class="site-navigation">
+
+							</div>
+						</div>
+					</header>
+						<div class="container coo">
+							<div id="event">
+							<h1>Créer un nouvel événement</h1>
+
+
+								<div id="contre">
+									<div class="contre1">
+									<h3>Détails</h3><br><br>
+									<label for="usr">Titre:</label>
+									<input type="text" class="form-control" id="usr">
+									<br><br><br>
+									<label for="sel1">Catégorie</label>
+									<select class="form-control" id="sel1">
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+									</select><br><br>
+									<h4>Heure</h4><br><br>
+									<div class="row">
+										<div class="col-sm-3 col-md-6 grid1">
+											<label for="usr">Début</label>
+											<div class="row">
+												<div class="col-sm-3 col-md-6">
+													<div id="" class="datepicker input-group date" data-date-format="mm-dd-yyyy">
+														<input class="form-control" type="text" readonly />
+														<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+													</div>
+												</div>
+
+												<div class="col-sm-3 col-md-6">
+													<div id="" class="datepicker input-group date" data-date-format="mm-dd-yyyy">
+														<input class="form-control" type="text" readonly />
+														<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+													</div>
+												</div>
+
+											</div>
+
+									</div>
+										<div class="col-sm-9 col-md-6 grid1">
+
+											<label for="usr">Fin</label>
+											<div class="row">
+												<div class="col-sm-3 col-md-6">
+													<div id="" class="datepicker input-group date" data-date-format="mm-dd-yyyy">
+														<input class="form-control" type="text" readonly />
+														<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+													</div>
+												</div>
+
+
+												<div class="col-sm-3 col-md-6 grid2">
+													<div id="" class="datepicker input-group date" data-date-format="mm-dd-yyyy">
+														<input class="form-control" type="text" readonly />
+														<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+													</div>
+												</div>
+											</div>
+												</div>
+
+											</div>
+
+
+									<form>
+										<div class="form-group">
+											<h4>Notes additionnel sur l'heure</h4>
+											<textarea class="form-control" rows="5" id="comment"></textarea>
+										</div>
+									</form>
+									<p>Ex: "Ouverture des portes à 09h"</p>
+
+
+										</div>
+									<div class="contre2">
+										<div class="row">
+											<div class="col-sm-6">
+												<label>Début des ventes de tickets</label>
+												<form>
+													<div class="radio">
+														<label><input type="radio" name="optradio">Lors de la publication de cet évènement</label>
+													</div>
+													<div class="radio">
+														<label><input type="radio" name="optradio">Date et heure spécifique</label>
+													</div>
+												</form>
+
+
+											</div>
+											<div class="col-sm-6">
+												<label>Fin des ventes de tickets</label>
+												<form>
+													<div class="radio">
+														<label><input type="radio" name="optradio">A une date ou une heure précise ou plutôt si les tickets sont vendus</label>
+													</div>
+													<div class="row">
+														<div class="col-sm-3 col-md-6">
+															<div id="" class="datepicker input-group date" data-date-format="mm-dd-yyyy">
+																<input class="form-control" type="text" readonly />
+																<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+															</div>
+														</div>
+
+
+														<div class="col-sm-3 col-md-6 grid2">
+															<div id="" class="datepicker input-group date" data-date-format="mm-dd-yyyy">
+																<input class="form-control" type="text" readonly />
+																<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+															</div>
+														</div>
+													</div>
+													<div class="radio">
+														<label><input type="radio" name="optradio">Seulement si tout les tickets sont vendus</label>
+													</div>
+												</form>
+
+
+											</div>
+										</div>
+
+									</div>
+									<div class="contre3">
+										<h4>Localisation</h4>
+										<div class="form-group">
+											<label for="usr">Nom:</label>
+											<input type="text" class="form-control" id="usr">
+										</div>
+										<p>Ex: Viru conference hall, 2nd floor, room 213</p>
+										<div class="form-group">
+											<label for="usr">Adresse:</label>
+											<input type="text" class="form-control" id="usr">
+										</div>
+										<p>Entrer l'adresse exacte pour permettre l'affichage des directions sur la carte</p>
+										<p>Ex: Viru 12-13, Tallin, Estonia </p>
+									</div>
+									<div class="contre4">
+										<h4>Organisateur</h4>
+										<button type="button" class="btn btn-info io">User</button>
+										<button type="button" class="btn btn-info io">Editer</button>
+									</div>
+									<div class="contre5">
+										<button class="btn danger btio">Enregistrer</button>
+
+									</div>
+							</div>
+									</div>
+
+
+							<div id="rightevents">
+								<div class="row">
+									<div class="col-sm-6">
+										<div>
+											<select class="form-control bt" id="sel1">
+												<option>Publié</option>
+												<option>Non publié</option>
+												<option>Annuler</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div>
+											<button type="button" class="btn btn-default cool">Default button</button>
+										</div>
+									</div>
+								</div>
+								</div>
+
+
+								
+
+
+
+
+								
+								
+						</div>
+							<script>$(function () {
+                                $(".datepicker").datepicker({
+                                    autoclose: true,
+                                    todayHighlight: true
+                                }).datepicker('update', new Date());;
+                            });
+							</script>
+							<script>
+                                $("#datepicker1").datepicker({
+                                    autoclose: true,
+                                    todayHighlight: true
+                                }).datepicker('update', new Date());;
+                                });
+							</script>
+			
+
+
+				</body>
+			</html>
+
