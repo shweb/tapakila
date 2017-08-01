@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/font_awesome.min.css">
+    <link rel="stylesheet" href="../css/mediaquery.css">
     <script type="text/javascript" src="../js/javascripts.js"></script>
     <script type="text/javascript" src="../js/js1.js"></script>
     <script type="text/javascript" src="../js/js2.js"></script>
@@ -19,9 +20,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
 
-
 </head>
-    <body>
+    <body class="boody">
     <header>
         <div id="site-header">
             <div class="site-advertisement">
@@ -53,8 +53,43 @@
                         </ul>
                     </div>
 
+                    <div class="col-sm-3">
+                        <p class="site-logo ">
+                            <a href="index.html">
+                                <img src="../img/logo.png">
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="header-search-box se">
+                            <form action="./page/recherche.html" method="get">
+                                <input type="text" name="query" placeholder="Search..." autocomplete="off">
+                                <input type="submit" value="Search">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pull-right">
+                        <div id="tapakila-menu" class="tapakila-menu">
 
 
+                            <ul>
+                                <div class="col-sm-6 col-xs-6 oo1">
+                                    <li><a href="#">	<li><br/><a href="#"><img class="compte" src ="../img/commande.png"></a></li><div class="mot1">Commande
+                                    </div></a></li>
+                                </div>
+                                <div class="col-sm-6 col-xs-6 o1">
+                                    <li><a href="#">	<li><br/><a href="#"><img class="compte" src ="../img/panier.png"></a></li><div class="mot1">Mes achats
+                                    </div></a></li>
+                                </div>
+                                <div class="col-sm-2 col-xs-6 pull-right o12">
+                                    <li class="activy"><a href="./page/indexcartvide.html" ><li class="activy"><br/><a href="#"><img class="compte" src ="../img/moncompte.png"></a></li><div class="mot1">Compte</div></a></li>
+                                </div>
+
+
+                            </ul>
+
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -63,6 +98,44 @@
             </div>
         </div>
     </header>
+
+    <div class="container">
+        <div class="gauche">.
+            <img src="../img/profil.png" id="sary">
+            <p id="bonjour" >Bonjour !</p>
+            <li class="mott3"><a href="#" class="activeee"> Mon compte</a></li>
+            <li class="mott2"><a href="#"> Mes favoris</a></li>
+            <li class="mott2"><a href="#"> Newsletter</a></li>
+            <li class="mott3"><a href="#"> Historique commande</a></li>
+
+        </div>
+        <div class="droite">
+            <h1 id="compte">Mon compte</h1>
+            <div class="contre">
+                <div class="form-group">
+                    <label for="usr">Nom:*</label>
+                    <input class="form-control forme" id="disabledInput" type="text" placeholder="Dina" >
+                    <label for="usr">Prénom:*</label>
+                    <input class="form-control forme" id="disabledInput" type="text" placeholder="Vonjy" >
+                    <label for="usr">Email:</label>
+                    <input id="email" type="text" class="form-control forme" name="email" placeholder="dinavonjy@icloud.com" >
+                    <label for="usr">Changer mot de passe</label>
+                    <input id="password" type="password" class="form-control forme" name="password" placeholder="mot de passe actuel">
+                    <input id="password" type="password" class="form-control forme" name="password" placeholder="Nouveau mot de passe">
+                    <input id="password" type="password" class="form-control forme" name="password" placeholder="Confirmer mot de passe">
+
+                </div>
+                <div class="contre5">
+                    <button class="btn danger btio2">Enregistrer</button>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
 
 
     </body>
