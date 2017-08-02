@@ -1,5 +1,10 @@
-
-
+@media screen and (min-width:500px) and (max-width: 550px){
+.reinitialise {
+    font-size: 38px;
+    margin-left: 195px;
+    margin-top: 7px;
+}
+}
 
 /* inscription */
 .inscript{
