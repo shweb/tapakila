@@ -1,80 +1,494 @@
 /* mediaqueris css  
 Team trustylabs */
 /*-----------------<200-400>---------------------------*/
-@media screen and (min-width:300px) and (max-width: 325px)  {
+@media screen and (min-width:800px) and (max-width:1000px){
+.reinitialise {
+font-size: 38px ! important;
+margin-left: 36% ! important;
+margin-top: 20px ! important;
+}
+.fbk {
+margin-left: 260px !important;
+font-size: 16px ! important;
+}
+.btn {
+background: #0054a6;
+color: white;
+width: 266px;
+margin-left: 308px ! important;
+height: 50px;
+}
+.red4 {
+margin-left: 86% ! important;
+color: red;
+margin-top: -45spx ! important;
+}
+.red3 {
+margin-left: 72% ! important;
+color: red;
+}
+
+}
+
+@media screen and (min-width:600px) and (max-width: 800px){
+.reinitialise {
+font-size: 38px ! important;
+margin-left: 36% ! important;
+margin-top: 20px ! important;
+}
+.spacerwhite {
+margin-top: 0 ! important;
+}
+.sinscrire {
+margin-left: 65px;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: #ff1d1d;
+background-image: none;
+background-origin: padding-box;
+background-position: 0% 0%;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto auto;
+border-bottom-color: rgb(255, 255, 255);
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0 0 0 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100% 100% 100% 100%;
+border-image-source: none;
+border-image-width: 1 1 1 1;
+border-left-color: rgb(255, 255, 255);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(255, 255, 255);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(255, 255, 255);
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-top-style: none;
+border-top-width: 0px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline-block;
+font-family: roboto;
+font-size: 16px;
+padding-bottom: 7px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 7px;
+text-align: center;
+width: 240px;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+margin-left: 36% ! important;
+}
+.red4 {
+margin-left: 46%  ! important;
+color: red;
+padding-top: 17px  ! important;
+}
+.red3 {
+margin-left: 37% ! important;
+color: red ! important;
+}
+.fbk {
+margin-left: 140px  ! important;
+font-size: 16px;
+}
+.btn {
+background: #0054a6;
+color: white;
+width: 266px;
+margin-left: 195px ! important;
+height: 50px;
+}
+}
+
+@media screen and (min-width:500px) and (max-width: 600px){
+.reinitialise {
+font-size: 38px ! important;
+margin-left: 34% ! important;
+margin-top: 9px ! important;
+}
+.sinscrire {
+margin-left: 65px;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: #ff1d1d;
+background-image: none;
+background-origin: padding-box;
+background-position: 0% 0%;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto auto;
+border-bottom-color: rgb(255, 255, 255);
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0 0 0 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100% 100% 100% 100%;
+border-image-source: none;
+border-image-width: 1 1 1 1;
+border-left-color: rgb(255, 255, 255);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(255, 255, 255);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(255, 255, 255);
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-top-style: none;
+border-top-width: 0px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline-block;
+font-family: roboto;
+font-size: 16px;
+padding-bottom: 7px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 7px;
+text-align: center;
+width: 240px;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+margin-left: 195px ! important;
+}
+.red4 {
+margin-left: 46%  ! important;
+color: red  ! important;
+margin-top: 19px  ! important;
+}
+.red3 {
+margin-left: 36% ! important;
+color: red ! important;
+}
+.spacerwhite {
+margin-top: 0 ! important;
+}
+.fbk {
+margin-left: 94px ! important;
+font-size: 16px;
+}
+.btn {
+background: #0054a6;
+color: white;
+width: 266px;
+margin-left: 150px  ! important;
+height: 50px;
+}
+}
+@media screen and (min-width:451px) and (max-width:600px)  {
+img.compte2 {
+width: 33px  ! important;
+height: 32px  ! important;
+margin-left: 6%  ! important;
+border: 5px  ! important;
+font-weight: bold  ! important;
+margin-right: 8px  ! important;
+}
+img.compte1 {
+width: 32px;
+height: 32px;
+margin-left: 12% ! important;
+border: 5px;
+font-weight: bold;
+margin-right: 8px;
+}
+.bouton {
+background-color: #2e5797;
+padding: 7% !important;
+font-size: 120% !important;
+border-radius: 5px;
+margin-top: 5% !important;
+margin-left: 0% !important;
+height: 80px !important;
+width: 68% !important;
+margin-left: 9% !important;
+}
+#site-header .site-advertisement .header-search-box {
+margin: 4px !important;
+margin-left: 4px !important;
+position: relative !important;
+width: 98% !important;
+}
+.btn {
+background: #0054a6 !important;
+color: white !important;
+width: 266px !important;
+margin-left: 28% !important;
+height: 50px !important;
+}
+.mot1{
+margin-left: 7% !important;
+}
+img.compte3 {
+width: 38px !important;
+height: 36px !important;
+margin-left: 29% !important;
+border: 5px !important;
+font-weight: bold !important;
+margin-right: -52% !important;
+margin-top: -25% !important;
+}
+}
+@media screen and (min-width:601px) and (max-width:700px)  {
+img.compte2 {
+width: 33px  ! important;
+height: 32px  ! important;
+margin-left: 0  ! important;
+border: 5px  ! important;
+font-weight: bold  ! important;
+margin-right: 8px  ! important;
+}
+.block1{
+margin-left: -28%;	
+}
+.block2{
+margin-left:84% ;
+margin-top: -25%;
+
+}
+img.compte1 {
+width: 32px;
+height: 32px;
+margin-left: 3% ! important;
+border: 5px;
+font-weight: bold;
+margin-right: 8px;
+}
+.bouton {
+background-color: #2e5797;
+padding: 7% !important;
+font-size: 120% !important;
+border-radius: 5px;
+margin-top: 5% !important;
+margin-left: 0% !important;
+height: 80px !important;
+width: 57% !important;
+margin-left: 21% !important;
+}
+#site-header .site-advertisement .header-search-box {
+margin: 4px !important;
+margin-left: 4px !important;
+position: relative !important;
+width: 98% !important;
+}
+.btn {
+background: #0054a6 !important;
+color: white !important;
+width: 266px !important;
+margin-left: 28% !important;
+height: 50px !important;
+}
+.mot1{
+margin-left: 7% !important;
+}
+img.compte3 {
+width: 38px !important;
+height: 36px !important;
+margin-left: 29% !important;
+border: 5px !important;
+font-weight: bold !important;
+margin-right: -52% !important;
+margin-top: -25% !important;
+}
+}
+@media screen and (min-width:700px) and (max-width:800px)  {
+img.compte2 {
+width: 33px  ! important;
+height: 32px  ! important;
+margin-left: 0  ! important;
+border: 5px  ! important;
+font-weight: bold  ! important;
+margin-right: 8px  ! important;
+}
+.block1{
+margin-left: -60%;	
+}
+.block2{
+margin-left: -27%;
+margin-top: -8%;
+}
+.block3{
+	margin-left: -30%;
+}
+img.compte1 {
+width: 32px;
+height: 32px;
+margin-left: 3% ! important;
+border: 5px;
+font-weight: bold;
+margin-right: 8px;
+}
+.bouton {
+background-color: #2e5797;
+padding: 7% !important;
+font-size: 120% !important;
+border-radius: 5px;
+margin-top: 5% !important;
+margin-left: 0% !important;
+height: 80px !important;
+width: 125% !important;
+margin-left: 21% !important;
+}
+#site-header .site-advertisement .header-search-box {
+margin: 4px !important;
+margin-left: 4px !important;
+position: relative !important;
+width: 98% !important;
+}
+.btn {
+background: #0054a6 !important;
+color: white !important;
+width: 266px !important;
+margin-left: 28% !important;
+height: 50px !important;
+}
+.mot1{
+margin-left: 2% !important;
+font-size: 12px;
+
+}
+img.compte3 {
+    width: 32px !important;
+    height: 36px !important;
+    margin-left: 62% !important;
+    border: 5px !important;
+    font-weight: bold !important;
+    margin-right: -42% !important;
+    margin-top: 5% !important;
+}
+
+}
+@media screen and (min-width:300px) and (max-width:450px)  {
+.bouton {
+background-color: #2e5797;
+padding: 8% !important;
+font-size: 108% !important;
+border-radius: 10px !important;
+margin-top: 5% !important;
+margin-left: 8% !important;
+width: 76%;
+}
+
+
+#site-header .site-advertisement .header-search-box {
+margin: -6px ! important;
+position: relative ! important;
+width: 102% ! important;
+}
+
+.btn {
+background: #0054a6 ! important;
+color: white ! important;
+width: 266px ! important;
+margin-left: 87px ! important;
+height: 50px ! important;
+}
 .descript{
 margin-top: 55px ! important;
 padding-left: 19% ! important;
 }
+img.compte1 {
+width: 34px !important;
+height: 32px !important;
+margin-left: 15% !important;
+border: 5px !important;
+font-weight: bold !important;
+margin-right: 8px !important;
 }
-@media screen and (min-width:380px) and (max-width: 390px)  {
-	.spacerwhite {
-    margin-top: 0  ! important;
+img.compte2 {
+width: 38px !important;
+height: 32px !important;
+margin-left: 3% !important;
+border: 5px !important;
+font-weight: bold !important;
+margin-right: 8px !important;
+}
 }
 
-	.red3 {
-    margin-left: 31% ! important;
-    color: red ! important;
+@media screen and (min-width:380px) and (max-width: 390px)  {
+.spacerwhite {
+margin-top: 0  ! important;
 }
-	.red4 {
-    margin-left: 47% ! important;
-    color: red;
-    padding-top: 24px ! important;
+
+.red3 {
+margin-left: 31% ! important;
+color: red ! important;
 }
-	.reinitialise {
-    font-size: 38px ! important;
-    margin-left: 96px ! important;
-    margin-top: 20px ! important;
+.red4 {
+margin-left: 47% ! important;
+color: red;
+padding-top: 24px ! important;
+}
+.reinitialise {
+font-size: 38px ! important;
+margin-left: 96px ! important;
+margin-top: 20px ! important;
 }
 .sinscrire {
-    margin-left: 65px;
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: #ff1d1d;
-    background-image: none;
-    background-origin: padding-box;
-    background-position: 0% 0%;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: repeat;
-    background-size: auto auto;
-    border-bottom-color: rgb(255, 255, 255);
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-    border-image-outset: 0 0 0 0;
-    border-image-repeat: stretch stretch;
-    border-image-slice: 100% 100% 100% 100%;
-    border-image-source: none;
-    border-image-width: 1 1 1 1;
-    border-left-color: rgb(255, 255, 255);
-    border-left-style: none;
-    border-left-width: 0px;
-    border-right-color: rgb(255, 255, 255);
-    border-right-style: none;
-    border-right-width: 0px;
-    border-top-color: rgb(255, 255, 255);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-top-style: none;
-    border-top-width: 0px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: inline-block;
-    font-family: roboto;
-    font-size: 16px;
-    padding-bottom: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 7px;
-    text-align: center;
-    width: 240px;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    margin-left: 104px  ! important;
+margin-left: 65px;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: #ff1d1d;
+background-image: none;
+background-origin: padding-box;
+background-position: 0% 0%;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto auto;
+border-bottom-color: rgb(255, 255, 255);
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0 0 0 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100% 100% 100% 100%;
+border-image-source: none;
+border-image-width: 1 1 1 1;
+border-left-color: rgb(255, 255, 255);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(255, 255, 255);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(255, 255, 255);
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-top-style: none;
+border-top-width: 0px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline-block;
+font-family: roboto;
+font-size: 16px;
+padding-bottom: 7px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 7px;
+text-align: center;
+width: 240px;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+margin-left: 104px  ! important;
 }
 .champs{
 width: 110% ! important;
@@ -143,77 +557,77 @@ height: 54px;
 }
 
 @media screen and (min-width:365px) and (max-width: 377px)  {
-	.spacerwhite {
-    margin-top: 0  ! important;
+.spacerwhite {
+margin-top: 0  ! important;
 }
-	.red3 {
-    margin-left: 29%  ! important;
-    color: red  ! important;
+.red3 {
+margin-left: 29%  ! important;
+color: red  ! important;
 }
-	.red4 {
-    margin-left: 45%  ! important;
-    color: red  ! important;
-    padding-top: 17px  ! important;
+.red4 {
+margin-left: 45%  ! important;
+color: red  ! important;
+padding-top: 17px  ! important;
 }
-	.sinscrire {
-    margin-left: 65px;
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: #ff1d1d;
-    background-image: none;
-    background-origin: padding-box;
-    background-position: 0% 0%;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: repeat;
-    background-size: auto auto;
-    border-bottom-color: rgb(255, 255, 255);
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-    border-image-outset: 0 0 0 0;
-    border-image-repeat: stretch stretch;
-    border-image-slice: 100% 100% 100% 100%;
-    border-image-source: none;
-    border-image-width: 1 1 1 1;
-    border-left-color: rgb(255, 255, 255);
-    border-left-style: none;
-    border-left-width: 0px;
-    border-right-color: rgb(255, 255, 255);
-    border-right-style: none;
-    border-right-width: 0px;
-    border-top-color: rgb(255, 255, 255);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-top-style: none;
-    border-top-width: 0px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: inline-block;
-    font-family: roboto;
-    font-size: 16px;
-    padding-bottom: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 7px;
-    text-align: center;
-    width: 240px;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    margin-left: 96px ! important;
+.sinscrire {
+margin-left: 65px;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: #ff1d1d;
+background-image: none;
+background-origin: padding-box;
+background-position: 0% 0%;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto auto;
+border-bottom-color: rgb(255, 255, 255);
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0 0 0 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100% 100% 100% 100%;
+border-image-source: none;
+border-image-width: 1 1 1 1;
+border-left-color: rgb(255, 255, 255);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(255, 255, 255);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(255, 255, 255);
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-top-style: none;
+border-top-width: 0px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline-block;
+font-family: roboto;
+font-size: 16px;
+padding-bottom: 7px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 7px;
+text-align: center;
+width: 240px;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+margin-left: 96px ! important;
 }
 .champs2 {
-    width: 101% ! important;
-    padding-left: 7px ! important;
-    padding-right: 10px ! important;
+width: 101% ! important;
+padding-left: 7px ! important;
+padding-right: 10px ! important;
 }
 .reinitialise {
-    font-size: 38px ! important;
-    margin-left: 92px ! important;
-    margin-top: 13px ! important;
+font-size: 38px ! important;
+margin-left: 92px ! important;
+margin-top: 13px ! important;
 }
 .inscript{
 font-size: 38px ! important;
@@ -284,10 +698,10 @@ height: 54px;
 
 
 @media screen and (max-width:320px) {
-	.champs2 {
-    width: 95% ! important;
-    padding-left: 25px ! important;
-    padding-right: 10px ! important;
+.champs2 {
+width: 95% ! important;
+padding-left: 25px ! important;
+padding-right: 10px ! important;
 }
 .oo{
 margin-left: 10% ! important;
@@ -439,21 +853,21 @@ padding-top: 40px ! important;
 
 }
 @media screen  and (min-width:320px) and (max-width:365px) {
-	.white {
-    background-color: #ffffff !important;
-    padding-top: 50px !important;
-    padding-left: 30px !important;
-    padding-right: 30px !important;
-    padding-bottom: 47px !important;
+.white {
+background-color: #ffffff !important;
+padding-top: 50px !important;
+padding-left: 30px !important;
+padding-right: 30px !important;
+padding-bottom: 47px !important;
 }
-  .fa {
-    text-align: center;
-    margin-left: -4px;
+.fa {
+text-align: center;
+margin-left: -4px;
 }
 
-	
-	.btn {
-  background: #0054a6 !important;
+
+.btn {
+background: #0054a6 !important;
 color: white !important;
 width: 278px !important;
 margin-left: 21px !important;
@@ -767,7 +1181,7 @@ padding-top: 40px ! important;
 }
 .reinitialise{
 font-size: 38px ! important;
-margin-left:95px ! important;
+margin-left:113px ! important;
 margin-top:20px ! important;
 }
 .sinscrire{
@@ -818,7 +1232,7 @@ width: 240px ! important;
 -moz-border-left-colors: none ! important;
 -moz-border-right-colors: none ! important;
 -moz-border-top-colors: none ! important;
-margin-left: 91px ! important;
+margin-left: 116px ! important;
 }
 .red4 {
 margin-left: 46% !important;
@@ -851,17 +1265,7 @@ color: white;
 font-size: 80%;
 margin-bottom: 5% !important;
 }
-.bouton{
-background-color: #2e5797;
-padding:8% !important;
-font-size: 120% !important;
-border-radius: 5px;
-margin-top: 5% !important;
-margin-left: 0%;
-height: 80px !important;
-width: 80% !important;
-margin-left: 10% !important;
-}
+
 .oo{
 margin-left: 22% ! important;
 margin-top: -11px ! important;
@@ -874,11 +1278,6 @@ margin-top: -10px ! important;
 margin-left: 7% !important;
 }
 
-#site-header .site-advertisement .header-search-box {
-margin-left: 0.8% !important;
-position: relative;
-width: 100% !important;
-}
 
 #site-header .site-advertisement .header-search-box form {
 display: block;
@@ -945,19 +1344,19 @@ margin: 0
 
 @media screen and (min-width:350px) and (max-width:361px) {
 .reinitialise {
-    font-size: 38px ! important;
-    margin-left: 83px ! important;
-    margin-top: 12px ! important;
+font-size: 38px ! important;
+margin-left: 83px ! important;
+margin-top: 12px ! important;
 }
 .champs2 {
-    width: 100% ! important;
-    padding-left: 16px ! important;
-    padding-right: 10px ! important;
+width: 100% ! important;
+padding-left: 16px ! important;
+padding-right: 10px ! important;
 }
 red4 {
-    margin-left: 42% !important;
-    color: red !important;
-    padding-top: 20px !important;
+margin-left: 42% !important;
+color: red !important;
+padding-top: 20px !important;
 }
 }
 @media screen and (min-width:603px) {
@@ -1063,14 +1462,14 @@ padding-left: 37% ! important;
 
 
 @media screen and (min-width:900px) and (max-width:990px){
-	.red3 {
-    margin-left: 75%  ! important;
-    color: red  ! important;
-	}
-	.red4 {
-    margin-left: 86%  ! important;
-    color: red;
-    margin-top: -48px  ! important;
+.red3 {
+margin-left: 75%  ! important;
+color: red  ! important;
+}
+.red4 {
+margin-left: 86%  ! important;
+color: red;
+margin-top: -48px  ! important;
 }
 .inscript{
 font-size: 38px ! important;
